@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-getway" />
+        <module name="eureka-client" />
+        <module name="eureka-client2" />
+        <module name="eureka-common" />
+        <module name="eureka-config" />
+        <module name="eureka-config-server" />
+        <module name="eureka-consumer" />
+        <module name="eureka-consumer-feign" />
+        <module name="eureka-consumer-ribbon" />
+        <module name="eureka-consumer-ribbon-hystrix" />
+        <module name="eureka-server" />
+        <module name="hystrix-dashboard" />
+        <module name="stream-hello" />
+        <module name="trace-client" />
+        <module name="trace-consumer" />
+        <module name="zipkin-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-getway" target="1.6" />
+      <module name="eureka-client" target="1.6" />
+      <module name="eureka-client2" target="1.6" />
+      <module name="eureka-common" target="1.8" />
+      <module name="eureka-config" target="1.6" />
+      <module name="eureka-config-server" target="1.6" />
+      <module name="eureka-consumer" target="1.6" />
+      <module name="eureka-consumer-feign" target="1.6" />
+      <module name="eureka-consumer-ribbon" target="1.6" />
+      <module name="eureka-consumer-ribbon-hystrix" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+      <module name="hystrix-dashboard" target="1.6" />
+      <module name="stream-hello" target="1.6" />
+      <module name="trace-client" target="1.6" />
+      <module name="trace-consumer" target="1.6" />
+      <module name="zipkin-server" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
